@@ -1,0 +1,6 @@
+c Subset Sum Problem
+c Numbers: 3, 9, 20, 25, 30, 45
+c Target sum: 76
+c
+3 9 20 25 30 45 76
+-3 -9 -20 -25 -30 -45 -76

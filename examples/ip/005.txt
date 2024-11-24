@@ -1,0 +1,23 @@
+c Set-Covering Problem
+c Sets:
+c S1 = {1, 2, 3}
+c S2 = {3, 4}
+c S3 = {2, 5}
+c S4 = {1, 4, 5}
+c Each set has a binary variable x1, x2, x3, x4.
+c x1 = 1 if S1 is chosen, x2 = 1 if S2 is chosen, and so on.
+c
+c Constraints:
+c Each item must be covered at least once:
+c Item 1: x1 + x4 >= 1
+c Item 2: x1 + x3 >= 1
+c Item 3: x1 + x2 >= 1
+c Item 4: x2 + x4 >= 1
+c Item 5: x3 + x4 >= 1
+-1 0 0 -1 -1
+-1 0 1 0 -1
+-1 -1 0 0 -1
+0 -1 0 -1 -1
+0 0 -1 -1 -1
+c At most 3 sets are chosen
+1 1 1 1 3
